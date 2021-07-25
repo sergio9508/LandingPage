@@ -5403,7 +5403,59 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  methods: {
+    menu: function menu() {
+      console.log(this.$refs.menu.style.display);
+
+      if (this.$refs.menu.style.display == "none") {
+        this.$refs.menu.style.display = "block";
+      } else {
+        this.$refs.menu.style.display = "none";
+      }
+    }
+  }
+});
 
 /***/ }),
 
@@ -10609,7 +10661,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "footer {\n  background: #2b3948;\n}\nfooter .footer-container {\n  max-width: 80%;\n  margin: 0 auto;\n}\nfooter .footer-container span {\n  color: #fff;\n  font-weight: 600;\n  margin-bottom: 2em;\n}\n@media screen and (min-width: 576px) {\nfooter .footer-container span {\n    font-size: 30px;\n}\n}\nfooter .footer-container a {\n  color: #adb1b5;\n  font-weight: 600;\n  text-decoration: none;\n  margin-bottom: 1em;\n}\n@media screen and (min-width: 576px) {\nfooter .footer-container a {\n    font-size: 30px;\n}\n}\n.copyright {\n  background-color: #273340;\n}\n.copyright .copy-container {\n  max-width: 80%;\n  margin: 0 auto;\n  display: flex;\n  justify-content: space-between;\n  padding: 1em;\n}\n@media screen and (min-width: 576px) {\n.copyright .copy-container {\n    flex-direction: column;\n}\n}\n.copyright .copy-container p {\n  color: #adb1b5;\n  margin: 0;\n}\n@media screen and (min-width: 576px) {\n.copyright .copy-container p {\n    font-size: 30px;\n}\n}\n@media screen and (min-width: 576px) {\n.copyright .copy-container .social-icons {\n    display: flex;\n    width: 30%;\n    justify-content: space-between;\n}\n.copyright .copy-container .social-icons img {\n    height: 50px;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "footer {\n  background: #2b3948;\n}\nfooter .footer-container {\n  max-width: 80%;\n  margin: 0 auto;\n}\nfooter .footer-container span {\n  color: #fff;\n  font-weight: 600;\n  margin-bottom: 2em;\n}\nfooter .footer-container a {\n  color: #adb1b5;\n  font-weight: 600;\n  text-decoration: none;\n  margin-bottom: 1em;\n}\n.copyright {\n  background-color: #273340;\n}\n.copyright .copy-container {\n  max-width: 80%;\n  margin: 0 auto;\n  display: flex;\n  justify-content: space-between;\n  padding: 1em;\n}\n@media screen and (max-width: 576px) {\n.copyright .copy-container {\n    flex-direction: column;\n}\n}\n.copyright .copy-container p {\n  color: #adb1b5;\n  margin: 0;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10633,7 +10685,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".home-1 {\n  max-width: 80%;\n  margin: 0 auto;\n}\n.home-1 p {\n  color: #08d6a7;\n  font-size: 18px;\n  font-weight: 600;\n}\n.home-1 h1 {\n  font-size: 48px;\n  font-weight: 500;\n  margin-bottom: 1em;\n}\n.home-1 img {\n  max-width: 100%;\n}\n@media screen and (min-width: 568px) {\n.home-1 img {\n    margin-top: 1em;\n}\n}\n.home-1 .btn-more {\n  background: #08d6a7;\n  color: #fff;\n  font-size: 17px;\n  font-weight: bold;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n  max-width: 20%;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".home-1 {\n  max-width: 80%;\n  margin: 0 auto;\n}\n.home-1 p {\n  color: #08d6a7;\n  font-size: 18px;\n  font-weight: 600;\n}\n.home-1 h1 {\n  font-weight: 500;\n  margin-bottom: 1em;\n}\n.home-1 img {\n  max-width: 100%;\n}\n@media screen and (max-width: 768px) {\n.home-1 img {\n    margin-top: 1em;\n}\n}\n.home-1 .btn-more {\n  background: #08d6a7;\n  color: #fff;\n  font-size: 17px;\n  font-weight: bold;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n  max-width: 20%;\n}\n@media screen and (max-width: 768px) {\n.home-1 .btn-more {\n    max-width: 50%;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10657,7 +10709,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".home-2 {\n  background: #2b3948;\n  padding: 3em 0;\n  position: relative;\n  top: -4em;\n  max-width: 70%;\n  border-radius: 0 30px 30px 0;\n}\n@media screen and (min-width: 576px) {\n.home-2 {\n    max-width: 90%;\n}\n}\n.home-2 .quote-container {\n  margin-left: 14%;\n}\n.home-2 .quote-container h1 {\n  color: #fff;\n  margin-bottom: 1em;\n}\n.home-2 .quote-container h1 span {\n  color: #08d6a7;\n}\n.home-2 .quote-container form {\n  display: flex;\n  flex-direction: row;\n  max-width: 90%;\n  justify-content: space-between;\n}\n@media screen and (min-width: 576px) {\n.home-2 .quote-container form {\n    width: 95%;\n    flex-direction: column;\n}\n}\n.home-2 .quote-container form select {\n  background: transparent;\n  border: none;\n  border-bottom: 1px solid #939aa1;\n  outline: none;\n  width: 260px;\n  color: #fff;\n}\n@media screen and (min-width: 576px) {\n.home-2 .quote-container form select {\n    font-size: 30px;\n    width: 100%;\n    margin-bottom: 0.5em;\n}\n}\n.home-2 .quote-container form select option {\n  background: #2b3948;\n  color: #fff;\n}\n.home-2 .quote-container form input {\n  background: transparent;\n  border: none;\n  border-bottom: 1px solid #939aa1;\n  outline: none;\n  width: 260px;\n  color: #fff;\n}\n@media screen and (min-width: 576px) {\n.home-2 .quote-container form input {\n    font-size: 30px;\n    width: 100%;\n    margin-bottom: 0.5em;\n}\n}\n.home-2 .quote-container form input::-moz-placeholder {\n  /* Chrome, Firefox, Opera, Safari 10.1+ */\n  color: #939aa1;\n  opacity: 1;\n  /* Firefox */\n}\n.home-2 .quote-container form input:-ms-input-placeholder {\n  /* Chrome, Firefox, Opera, Safari 10.1+ */\n  color: #939aa1;\n  opacity: 1;\n  /* Firefox */\n}\n.home-2 .quote-container form input::placeholder {\n  /* Chrome, Firefox, Opera, Safari 10.1+ */\n  color: #939aa1;\n  opacity: 1;\n  /* Firefox */\n}\n.home-2 .quote-container form .btn-quote {\n  background: #08d6a7;\n  color: #fff;\n  font-weight: 400;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n}\n@media screen and (min-width: 576px) {\n.home-2 .quote-container form .btn-quote {\n    font-size: 30px;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".home-2 {\n  background: #2b3948;\n  padding: 3em 0;\n  position: relative;\n  top: -4em;\n  max-width: 70%;\n  border-radius: 0 30px 30px 0;\n}\n@media screen and (max-width: 576px) {\n.home-2 {\n    max-width: 90%;\n}\n}\n.home-2 .quote-container {\n  margin-left: 14%;\n}\n.home-2 .quote-container h1 {\n  color: #fff;\n  margin-bottom: 1em;\n}\n.home-2 .quote-container h1 span {\n  color: #08d6a7;\n}\n.home-2 .quote-container form {\n  display: flex;\n  flex-direction: row;\n  max-width: 90%;\n  justify-content: space-between;\n}\n@media screen and (max-width: 576px) {\n.home-2 .quote-container form {\n    width: 90%;\n    flex-direction: column;\n}\n}\n.home-2 .quote-container form select {\n  background: transparent;\n  border: none;\n  border-bottom: 1px solid #939aa1;\n  outline: none;\n  width: 260px;\n  color: #fff;\n}\n@media screen and (max-width: 576px) {\n.home-2 .quote-container form select {\n    width: 100%;\n    margin-bottom: 0.5em;\n}\n}\n.home-2 .quote-container form select option {\n  background: #2b3948;\n  color: #fff;\n}\n.home-2 .quote-container form input {\n  background: transparent;\n  border: none;\n  border-bottom: 1px solid #939aa1;\n  outline: none;\n  width: 260px;\n  color: #fff;\n}\n@media screen and (max-width: 576px) {\n.home-2 .quote-container form input {\n    width: 100%;\n    margin-bottom: 0.5em;\n}\n}\n.home-2 .quote-container form input::-moz-placeholder {\n  /* Chrome, Firefox, Opera, Safari 10.1+ */\n  color: #939aa1;\n  opacity: 1;\n  /* Firefox */\n}\n.home-2 .quote-container form input:-ms-input-placeholder {\n  /* Chrome, Firefox, Opera, Safari 10.1+ */\n  color: #939aa1;\n  opacity: 1;\n  /* Firefox */\n}\n.home-2 .quote-container form input::placeholder {\n  /* Chrome, Firefox, Opera, Safari 10.1+ */\n  color: #939aa1;\n  opacity: 1;\n  /* Firefox */\n}\n.home-2 .quote-container form .btn-quote {\n  background: #08d6a7;\n  color: #fff;\n  font-weight: 400;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10681,7 +10733,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".home-3 {\n  max-width: 80%;\n  margin: 0 auto 4em auto;\n}\n.home-3 h1 {\n  color: #08d6a7;\n  font-weight: 600;\n}\n@media screen and (min-width: 576px) {\n.home-3 h1 {\n    font-size: 35px;\n}\n}\n.home-3 p {\n  font-size: 17px;\n  font-weight: 400;\n}\n@media screen and (min-width: 576px) {\n.home-3 p {\n    font-size: 30px;\n}\n}\n.home-3 .products {\n  display: flex;\n  justify-content: space-around;\n}\n@media screen and (min-width: 576px) {\n.home-3 .products {\n    flex-wrap: wrap;\n}\n}\n.home-3 .products .card-product {\n  border: 2px solid #08d6a7;\n  border-radius: 10px;\n  padding: 2em;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n@media screen and (min-width: 576px) {\n.home-3 .products .card-product {\n    width: 45%;\n    margin-bottom: 1em;\n}\n.home-3 .products .card-product p {\n    font-size: 30px;\n}\n.home-3 .products .card-product .btn-view {\n    font-size: 30px;\n}\n}\n.home-3 .products .card-product img {\n  max-width: 100%;\n  margin-bottom: 1em;\n}\n.home-3 .products .card-product p {\n  margin: 2em 0;\n  font-weight: 600;\n}\n.home-3 .products .card-product .btn-view {\n  background: #08d6a7;\n  color: #fff;\n  font-weight: 400;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n}\n.home-3 .products .card-product:hover {\n  background: #2b3948;\n  border: 2px solid #2b3948;\n}\n.home-3 .products .card-product:hover p {\n  color: #fff;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".home-3 {\n  max-width: 80%;\n  margin: 0 auto 4em auto;\n}\n.home-3 h1 {\n  color: #08d6a7;\n  font-weight: 600;\n}\n.home-3 p {\n  font-size: 17px;\n  font-weight: 400;\n}\n.home-3 .products {\n  display: flex;\n  justify-content: space-around;\n}\n@media only screen and (max-width: 768px) {\n.home-3 .products {\n    flex-wrap: wrap;\n}\n}\n.home-3 .products .card-product {\n  border: 2px solid #08d6a7;\n  border-radius: 10px;\n  padding: 2em;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n@media only screen and (max-width: 768px) {\n.home-3 .products .card-product {\n    width: 100%;\n    margin-bottom: 1em;\n}\n}\n.home-3 .products .card-product img {\n  max-width: 100%;\n  margin-bottom: 1em;\n}\n.home-3 .products .card-product p {\n  margin: 2em 0;\n  font-weight: 600;\n}\n.home-3 .products .card-product .btn-view {\n  background: #08d6a7;\n  color: #fff;\n  font-weight: 400;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n}\n.home-3 .products .card-product:hover {\n  background: #2b3948;\n  border: 2px solid #2b3948;\n}\n.home-3 .products .card-product:hover p {\n  color: #fff;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10705,7 +10757,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".home-4 {\n  max-width: 80%;\n  margin: 2em auto;\n  border-top: 2px solid #f7f7f7;\n  padding-top: 2em;\n}\n.home-4 .choose h1 {\n  color: #f2ab3c;\n  margin-bottom: 2em;\n}\n@media screen and (min-width: 576px) {\n.home-4 .choose h1 {\n    font-size: 38px;\n}\n}\n@media screen and (min-width: 576px) {\n.home-4 .choose p {\n    font-size: 28px;\n}\n}\n.home-4 .choose .insurance .insurances {\n  display: flex;\n  align-items: center;\n  margin: 2em 0;\n  justify-content: center;\n}\n.home-4 .choose .insurance .insurances p {\n  margin: 0;\n}\n.home-4 .choose .insurance .insurances p.fw-bold {\n  width: 200px;\n}\n@media screen and (min-width: 576px) {\n.home-4 .choose .insurance .insurances p.fw-bold {\n    width: 400px;\n}\n}\n.home-4 .choose .insurance .insurances p.percent {\n  margin-left: 0.5em;\n}\n.home-4 .choose .insurance .insurances .line {\n  width: 100%;\n  background: #eeeeee;\n  height: 3px;\n  border-radius: 1px;\n}\n.home-4 .choose .insurance .insurances .line .yellow {\n  background: #f2ab3c;\n  height: 3px;\n}\n.home-4 .choose .insurance .insurances .line .yellow.p-95 {\n  width: 95%;\n}\n.home-4 .choose .insurance .insurances .line .yellow.p-87 {\n  width: 87%;\n}\n.home-4 .choose .insurance .insurances .line .yellow.p-92 {\n  width: 92%;\n}\n.home-4 .choose .insurance .insurances .line .yellow.p-80 {\n  width: 80%;\n}\n.home-4 .choose .cards-insurance {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.home-4 .choose .cards-insurance .card-insurance {\n  background: #f2ab3c;\n  border-radius: 10px;\n  width: 28%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n.home-4 .choose .cards-insurance .card-insurance p {\n  color: #fff;\n  text-align: center;\n  margin-top: 0;\n  margin-bottom: 0.5em;\n  font-weight: 600;\n}\n.home-4 .choose .cards-insurance .card-insurance span {\n  color: #fff;\n  font-size: 24px;\n  margin: 0.5em 0;\n  font-weight: 600;\n}\n.home-4 .help-us {\n  border: 2px solid #f2ab3c;\n  border-radius: 10px;\n  padding: 2em;\n}\n.home-4 .help-us h1 {\n  color: #f2ab3c;\n}\n@media screen and (min-width: 576px) {\n.home-4 .help-us h1 {\n    font-size: 38px;\n}\n}\n@media screen and (min-width: 576px) {\n.home-4 .help-us {\n    margin-top: 1em;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".home-4 {\n  max-width: 80%;\n  margin: 2em auto;\n  border-top: 2px solid #f7f7f7;\n  padding-top: 2em;\n}\n.home-4 .choose h1 {\n  color: #f2ab3c;\n  margin-bottom: 2em;\n}\n.home-4 .choose .insurance .insurances {\n  display: flex;\n  align-items: center;\n  margin: 2em 0;\n  justify-content: center;\n}\n.home-4 .choose .insurance .insurances p {\n  margin: 0;\n}\n.home-4 .choose .insurance .insurances p.fw-bold {\n  width: 200px;\n}\n@media screen and (max-width: 576px) {\n.home-4 .choose .insurance .insurances p.fw-bold {\n    width: 400px;\n}\n}\n.home-4 .choose .insurance .insurances p.percent {\n  margin-left: 0.5em;\n}\n.home-4 .choose .insurance .insurances .line {\n  width: 100%;\n  background: #eeeeee;\n  height: 3px;\n  border-radius: 1px;\n}\n.home-4 .choose .insurance .insurances .line .yellow {\n  background: #f2ab3c;\n  height: 3px;\n}\n.home-4 .choose .insurance .insurances .line .yellow.p-95 {\n  width: 95%;\n}\n.home-4 .choose .insurance .insurances .line .yellow.p-87 {\n  width: 87%;\n}\n.home-4 .choose .insurance .insurances .line .yellow.p-92 {\n  width: 92%;\n}\n.home-4 .choose .insurance .insurances .line .yellow.p-80 {\n  width: 80%;\n}\n.home-4 .choose .cards-insurance {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.home-4 .choose .cards-insurance .card-insurance {\n  background: #f2ab3c;\n  border-radius: 10px;\n  width: 28%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n.home-4 .choose .cards-insurance .card-insurance p {\n  color: #fff;\n  text-align: center;\n  margin-top: 0;\n  margin-bottom: 0.5em;\n  font-weight: 600;\n}\n.home-4 .choose .cards-insurance .card-insurance span {\n  color: #fff;\n  font-size: 24px;\n  margin: 0.5em 0;\n  font-weight: 600;\n}\n.home-4 .help-us {\n  border: 2px solid #f2ab3c;\n  border-radius: 10px;\n  padding: 2em;\n}\n.home-4 .help-us h1 {\n  color: #f2ab3c;\n}\n@media screen and (max-width: 576px) {\n.home-4 .help-us {\n    margin-top: 1em;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10729,7 +10781,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".home-5 {\n  background: #f8f8f8;\n}\n.home-5 .home-5-container {\n  max-width: 80%;\n  margin: 0 auto;\n  padding-bottom: 2em;\n}\n.home-5 .home-5-container h1 {\n  color: #08d6a7;\n  font-weight: 600;\n  padding-top: 2em;\n}\n@media screen and (min-width: 576px) {\n.home-5 .home-5-container h1 {\n    font-size: 38px;\n}\n}\n.home-5 .home-5-container p {\n  margin-top: 1em;\n}\n@media screen and (min-width: 576px) {\n.home-5 .home-5-container p {\n    font-size: 30px;\n}\n}\n.home-5 .home-5-container .blog-content {\n  display: flex;\n  justify-content: space-between;\n}\n@media screen and (min-width: 576px) {\n.home-5 .home-5-container .blog-content {\n    flex-wrap: wrap;\n}\n}\n.home-5 .home-5-container .blog-content .blog {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n}\n@media screen and (min-width: 576px) {\n.home-5 .home-5-container .blog-content .blog {\n    width: 100%;\n    flex-wrap: wrap;\n    margin-bottom: 2em;\n}\n}\n.home-5 .home-5-container .blog-content .blog .text {\n  background: #fff;\n  border-radius: 0 0 10px 10px;\n  padding: 1em;\n}\n.home-5 .home-5-container .blog-content .blog .text h1 {\n  padding: 0;\n  color: #000;\n  font-size: 30px;\n}\n.home-5 .home-5-container .blog-content .blog a {\n  color: #08d6a7;\n  text-decoration: none;\n}\n@media screen and (min-width: 576px) {\n.home-5 .home-5-container .blog-content .blog a {\n    font-size: 30px;\n}\n}\n.home-5 .home-5-container .btn-quote {\n  background: #08d6a7;\n  color: #fff;\n  font-weight: 400;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n  display: block;\n  margin: 2em auto;\n}\n@media screen and (min-width: 576px) {\n.home-5 .home-5-container .btn-quote {\n    font-size: 30px;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".home-5 {\n  background: #f8f8f8;\n}\n.home-5 .home-5-container {\n  max-width: 80%;\n  margin: 0 auto;\n  padding-bottom: 2em;\n}\n.home-5 .home-5-container h1 {\n  color: #08d6a7;\n  font-weight: 600;\n  padding-top: 2em;\n}\n.home-5 .home-5-container p {\n  margin-top: 1em;\n}\n.home-5 .home-5-container .blog-content {\n  display: flex;\n  justify-content: space-between;\n}\n@media screen and (max-width: 768px) {\n.home-5 .home-5-container .blog-content {\n    flex-wrap: wrap;\n}\n}\n.home-5 .home-5-container .blog-content .blog {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n}\n@media screen and (max-width: 768px) {\n.home-5 .home-5-container .blog-content .blog {\n    width: 100%;\n    margin-bottom: 2em;\n}\n}\n.home-5 .home-5-container .blog-content .blog .text {\n  background: #fff;\n  border-radius: 0 0 10px 10px;\n  padding: 1em;\n}\n.home-5 .home-5-container .blog-content .blog .text h1 {\n  padding: 0;\n  color: #000;\n  font-size: 30px;\n}\n.home-5 .home-5-container .blog-content .blog a {\n  color: #08d6a7;\n  text-decoration: none;\n}\n.home-5 .home-5-container .btn-quote {\n  background: #08d6a7;\n  color: #fff;\n  font-weight: 400;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n  display: block;\n  margin: 2em auto;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10753,7 +10805,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".menu-component {\n  max-width: 80%;\n  margin: 0 auto;\n}\n@media screen and (min-width: 576px) {\n.menu-component img {\n    max-width: 100%;\n}\n}\n.menu-component a {\n  color: #000;\n  font-weight: bold;\n  text-decoration: none;\n}\n@media screen and (min-width: 576px) {\n.menu-component a {\n    font-size: 24px;\n}\n}\n.menu-component a.active {\n  border-bottom: 2px solid #08d6a7;\n}\n.menu-component .btn-quote {\n  background: #08d6a7;\n  color: #fff;\n  font-weight: 400;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n}\n@media screen and (min-width: 576px) {\n.menu-component .btn-quote {\n    font-size: 24px;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".menu-component {\n  max-width: 80%;\n  margin: 0 auto;\n}\n.menu-component a {\n  color: #000;\n  font-weight: bold;\n  text-decoration: none;\n}\n.menu-component a.active {\n  border-bottom: 2px solid #08d6a7;\n}\n.menu-component .btn-quote {\n  background: #08d6a7;\n  color: #fff;\n  font-weight: 400;\n  border: none;\n  padding: 0.5em 1em;\n  border-radius: 30px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10777,7 +10829,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".nav-bar {\n  background: #2b3948;\n}\n.nav-bar p {\n  color: #fff;\n}\n@media screen and (min-width: 576px) {\n.nav-bar p {\n    font-size: 30px;\n}\n}\n.nav-bar a {\n  color: #fff;\n  text-decoration: none;\n}\n@media screen and (min-width: 576px) {\n.nav-bar a {\n    font-size: 30px;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".nav-bar {\n  background: #2b3948;\n}\n.nav-bar p {\n  color: #fff;\n}\n.nav-bar a {\n  color: #fff;\n  text-decoration: none;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10801,7 +10853,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".message-header {\n  cursor: pointer;\n  font-weight: bold;\n  font-size: 17px;\n  padding: 1em 0;\n  border-bottom: 1px solid #eeeeee;\n}\n.message-header::before {\n  content: url(\"/images/toggle-open.png\");\n  padding-right: 5px;\n}\n@media screen and (min-width: 576px) {\n.message-header {\n    font-size: 30px;\n}\n}\n.message-body {\n  padding: 0;\n  max-height: 10em;\n  overflow: hidden;\n  transition: 0.3s ease all;\n  padding: 0 1em;\n}\n@media screen and (min-width: 576px) {\n.message-body {\n    font-size: 30px;\n}\n}\n.is-closed .message-body {\n  max-height: 0;\n  padding: 0;\n}\n.is-closed .message-header::before {\n  content: url(\"/images/toggle.png\");\n  padding-right: 5px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".message-header {\n  cursor: pointer;\n  font-weight: bold;\n  font-size: 17px;\n  padding: 1em 0;\n  border-bottom: 1px solid #eeeeee;\n}\n.message-header::before {\n  content: url(\"/images/toggle-open.png\");\n  padding-right: 5px;\n}\n.message-body {\n  padding: 0;\n  max-height: 10em;\n  overflow: hidden;\n  transition: 0.3s ease all;\n  padding: 0 1em;\n}\n.is-closed .message-body {\n  max-height: 0;\n  padding: 0;\n}\n.is-closed .message-header::before {\n  content: url(\"/images/toggle.png\");\n  padding-right: 5px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -43879,70 +43931,139 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "my-2 menu-component" }, [
+    _c(
+      "div",
+      {
+        staticClass:
+          "row d-lg-flex d-flex align-items-center justify-content-between"
+      },
+      [
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _vm._m(2),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "\n        d-flex d-sm-flex d-lg-none\n        col-sm-6 col-6\n        align-items-end\n        flex-column\n      "
+          },
+          [
+            _c(
+              "svg",
+              {
+                attrs: { viewBox: "0 0 100 80", width: "40", height: "40" },
+                on: { click: _vm.menu }
+              },
+              [
+                _c("rect", { attrs: { width: "100", height: "20" } }),
+                _vm._v(" "),
+                _c("rect", { attrs: { y: "30", width: "100", height: "20" } }),
+                _vm._v(" "),
+                _c("rect", { attrs: { y: "60", width: "100", height: "20" } })
+              ]
+            )
+          ]
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { ref: "menu", staticClass: "row ", staticStyle: { display: "none" } },
+      [_vm._m(3)]
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-2 menu-component" }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "row d-lg-flex align-items-center justify-content-between"
-        },
-        [
-          _c(
-            "div",
-            {
-              staticClass:
-                "\n        col-lg-3 col-sm-12\n        d-flex\n        align-items-center\n        justify-lg-content-end justify-content-start\n      "
-            },
-            [_c("img", { attrs: { src: "/images/logo.png", alt: "" } })]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "\n        col-lg-6 col-sm-12\n        d-flex\n        align-items-center\n        justify-content-between\n      "
-            },
-            [
-              _c("a", { staticClass: "active", attrs: { href: "#" } }, [
-                _vm._v("HOME")
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("PRODUCTS")]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("ABOUT US")]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("BLOG")]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("CONTACT")])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "col-lg-3 col-sm-12 d-flex align-items-center justify-content-end"
-            },
-            [
-              _c("img", {
-                staticClass: "m-3",
-                attrs: { src: "/images/search-icon.png", alt: "" }
-              }),
-              _vm._v(" "),
-              _c("button", { staticClass: "btn-quote" }, [
-                _vm._v("GET A QUOTE")
-              ])
-            ]
-          )
-        ]
-      )
+    return _c(
+      "div",
+      {
+        staticClass:
+          "\n        col-lg-3 col-sm-6 col-6\n        d-flex\n        align-items-center\n        justify-lg-content-end justify-content-start\n      "
+      },
+      [_c("img", { attrs: { src: "/images/logo.png", alt: "" } })]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "\n        col-lg-6 col-sm-12\n        d-lg-flex\n        align-items-center\n        justify-content-between\n        d-sm-none d-none\n      "
+      },
+      [
+        _c("a", { staticClass: "active", attrs: { href: "#" } }, [
+          _vm._v("HOME")
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#" } }, [_vm._v("PRODUCTS")]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#" } }, [_vm._v("ABOUT US")]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#" } }, [_vm._v("BLOG")]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#" } }, [_vm._v("CONTACT")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "\n        col-lg-3 col-sm-12\n        d-lg-flex\n        align-items-center\n        justify-content-end\n        d-sm-none d-none\n      "
+      },
+      [
+        _c("img", {
+          staticClass: "m-3",
+          attrs: { src: "/images/search-icon.png", alt: "" }
+        }),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn-quote" }, [_vm._v("GET A QUOTE")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-12 d-flex flex-column" }, [
+      _c("a", { attrs: { href: "#" } }, [_vm._v("HOME")]),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "#" } }, [_vm._v("PRODUCTS")]),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "#" } }, [_vm._v("ABOUT US")]),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "#" } }, [_vm._v("BLOG")]),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "#" } }, [_vm._v("CONTACT")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row align-items-center" }, [
+        _c("div", { staticClass: "col-2" }, [
+          _c("img", {
+            staticClass: "img-responsive",
+            attrs: { src: "/images/search-icon.png", alt: "" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-6" }, [
+          _c("button", { staticClass: "btn-quote" }, [_vm._v("GET A QUOTE")])
+        ])
+      ])
     ])
   }
 ]

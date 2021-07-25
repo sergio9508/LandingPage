@@ -70,7 +70,7 @@ export default {
   position: relative;
   top: -4em;
   max-width: 70%;
-  @media screen and (min-width: 576px) {
+  @media screen and (max-width: 576px) {
     max-width: 90%;
   }
   border-radius: 0 30px 30px 0;
@@ -87,8 +87,8 @@ export default {
       display: flex;
       flex-direction: row;
       max-width: 90%;
-      @media screen and (min-width: 576px) {
-          width: 95%;
+      @media screen and (max-width: 576px) {
+          width: 90%;
           flex-direction: column;
       }
       justify-content: space-between;
@@ -99,8 +99,8 @@ export default {
         outline: none;
         width: 260px;
         color: #fff;
-        @media screen and (min-width: 576px) {
-          font-size: 30px;
+        @media screen and (max-width: 576px) {
+
           width: 100%;
           margin-bottom: .5em;
         }
@@ -116,8 +116,8 @@ export default {
         outline: none;
         width: 260px;
         color: #fff;
-        @media screen and (min-width: 576px) {
-          font-size: 30px;
+        @media screen and (max-width: 576px) {
+
           width: 100%;
           margin-bottom: .5em;
         }
@@ -134,9 +134,7 @@ export default {
         border: none;
         padding: 0.5em 1em;
         border-radius: 30px;
-        @media screen and (min-width: 576px) {
-          font-size: 30px;
-        }
+
       }
     }
   }

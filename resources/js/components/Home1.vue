@@ -30,13 +30,12 @@ export default {};
     font-weight: 600;
   }
   h1 {
-    font-size: 48px;
     font-weight: 500;
     margin-bottom: 1em;
   }
   img {
     max-width: 100%;
-    @media screen and (min-width: 568px) {
+    @media screen and (max-width: 768px) {
         margin-top: 1em;
     }
   }
@@ -49,6 +48,9 @@ export default {};
     padding: 0.5em 1em;
     border-radius: 30px;
     max-width: 20%;
+    @media screen and (max-width: 768px) {
+        max-width: 50%
+    }
   }
 }
 </style>

@@ -41,21 +41,15 @@ export default {};
   h1 {
     color: #08d6a7;
     font-weight: 600;
-     @media screen and (min-width: 576px) {
-        font-size: 35px;
-    }
   }
   p {
     font-size: 17px;
     font-weight: 400;
-    @media screen and (min-width: 576px) {
-        font-size: 30px;
-    }
   }
   .products {
     display: flex;
     justify-content: space-around;
-    @media screen and (min-width: 576px) {
+    @media only screen and (max-width: 768px) {
       flex-wrap: wrap;
     }
     .card-product {
@@ -66,15 +60,10 @@ export default {};
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      @media screen and (min-width: 576px) {
-        width: 45%;
+      @media only screen and (max-width: 768px) {
+        width: 100%;
         margin-bottom: 1em;
-         p {
-             font-size: 30px;
-         }
-         .btn-view {
-             font-size: 30px;
-         }
+
       }
       img {
         max-width: 100%;

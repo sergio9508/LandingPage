@@ -32,16 +32,12 @@ export default {
     background: #2b3948;
     p{
         color: #fff;
-        @media screen and (min-width: 576px) {
-            font-size: 30px;
-        }
+
     }
     a{
         color: #fff;
         text-decoration: none;
-        @media screen and (min-width: 576px) {
-            font-size: 30px;
-        }
+
     }
 }
 </style>

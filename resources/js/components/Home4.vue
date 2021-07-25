@@ -131,15 +131,9 @@ export default {
     h1 {
       color: #f2ab3c;
       margin-bottom: 2em;
-      @media screen and (min-width: 576px) {
-        font-size: 38px;
-      }
+
     }
-    p {
-      @media screen and (min-width: 576px) {
-        font-size: 28px;
-      }
-    }
+
     .insurance {
       .insurances {
         display: flex;
@@ -150,7 +144,7 @@ export default {
           margin: 0;
           &.fw-bold {
             width: 200px;
-            @media screen and (min-width: 576px) {
+            @media screen and (max-width: 576px) {
               width: 400px;
             }
           }
@@ -216,11 +210,9 @@ export default {
     padding: 2em;
     h1 {
       color: #f2ab3c;
-       @media screen and (min-width: 576px) {
-        font-size: 38px;
-      }
+
     }
-    @media screen and (min-width: 576px) {
+    @media screen and (max-width: 576px) {
       margin-top: 1em;
     }
   }

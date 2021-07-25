@@ -57,18 +57,14 @@ footer {
       color: #fff;
       font-weight: 600;
       margin-bottom: 2em;
-      @media screen and (min-width: 576px) {
-        font-size: 30px;
-      }
+
     }
     a {
       color: #adb1b5;
       font-weight: 600;
       text-decoration: none;
       margin-bottom: 1em;
-      @media screen and (min-width: 576px) {
-        font-size: 30px;
-      }
+
     }
   }
 }
@@ -80,26 +76,15 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    @media screen and (min-width: 576px) {
+    @media screen and (max-width: 576px) {
       flex-direction: column;
     }
     p {
       color: #adb1b5;
       margin: 0;
-      @media screen and (min-width: 576px) {
-        font-size: 30px;
-      }
+
     }
-    .social-icons {
-      @media screen and (min-width: 576px) {
-        display: flex;
-        width: 30%;
-        justify-content: space-between;
-        img {
-          height: 50px;
-        }
-      }
-    }
+
   }
 }
 </style>
