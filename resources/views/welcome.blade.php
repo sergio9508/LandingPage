@@ -6,8 +6,9 @@
     <nav-bar></nav-bar>
     <menu-component></menu-component>
     <home-1></home-1>
-    <home-2></home-2 />
-    <home-3></home-3 />
+    <home-2></home-2>
+    <home-3></home-3>
+    <home-4></home-4>
 @stop
 
 @section('content')

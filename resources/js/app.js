@@ -24,6 +24,7 @@ Vue.component('menu-component', require('./components/Menu.vue').default);
 Vue.component('home-1', require('./components/Home1.vue').default);
 Vue.component('home-2', require('./components/Home2.vue').default);
 Vue.component('home-3', require('./components/Home3.vue').default);
+Vue.component("home-4", require('./components/Home4.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

@@ -37,7 +37,7 @@ export default {};
 <style lang="scss">
 .home-3 {
   max-width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 4em auto;
   h1 {
     color: #08d6a7;
     font-weight: 600;
