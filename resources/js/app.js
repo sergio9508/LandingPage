@@ -4,6 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+import Vue from "vue";
+import VueToast from "vue-toast-notification";
+import "vue-toast-notification/dist/theme-default.css";
 require("./bootstrap");
 
 window.Vue = require("vue").default;
@@ -27,6 +30,7 @@ Vue.component("home-3", require("./components/Home3.vue").default);
 Vue.component("home-4", require("./components/Home4.vue").default);
 Vue.component("home-5", require("./components/Home5.vue").default);
 Vue.component("footer-component", require("./components/Footer.vue").default);
+Vue.use(VueToast);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

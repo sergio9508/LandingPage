@@ -1,7 +1,7 @@
 <template>
   <div class="home-1">
     <div class="row">
-      <div class="col-md-6 d-flex justify-content-center flex-column">
+      <div class="col-lg-6 col-sm-12 d-flex justify-content-center flex-column">
         <p>HOUSE INSURANCE</p>
         <h1>
           TAKING CARE OF <br />
@@ -9,7 +9,7 @@
         </h1>
         <button class="btn-more">VIEW MORE</button>
       </div>
-      <div class="col-md-6">
+      <div class="col-lg-6 col-sm-12">
         <img src="/images/img.png" alt="" />
       </div>
     </div>
@@ -36,6 +36,9 @@ export default {};
   }
   img {
     max-width: 100%;
+    @media screen and (min-width: 568px) {
+        margin-top: 1em;
+    }
   }
   .btn-more {
     background: #08d6a7;
