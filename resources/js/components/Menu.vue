@@ -1,0 +1,47 @@
+<template>
+  <div class="my-2 menu-component">
+    <div class="row d-flex align-items-center justify-content-between">
+      <div class="col-md-3">
+        <img src="/images/logo.png" alt="" />
+      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-between">
+        <a href="#" class="active">HOME</a>
+        <a href="#">PRODUCTS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT</a>
+      </div>
+      <div class="col-md-3  d-flex align-items-center justify-content-end">
+        <img src="/images/search-icon.png" alt="" class="m-3"/>
+        <button class="btn-quote">GET A QUOTE</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="scss">
+.menu-component {
+     max-width: 80%;
+    margin: 0 auto;
+    a{
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        &.active{
+            border-bottom: 2px solid #08d6a7;
+        }
+    }
+    .btn-quote{
+        background: #08d6a7;
+        color: #fff;
+        font-weight: 400;
+        border: none;
+        padding: .5em 1em;
+        border-radius: 30px;
+    }
+}
+</style>

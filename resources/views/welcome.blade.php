@@ -3,11 +3,13 @@
 @section('title', 'Page Title')
 
 @section('sidebar')
-    @parent
-
-    <p>This is appended to the master sidebar.</p>
+    <nav-bar></nav-bar>
+    <menu-component></menu-component>
+    <home-1></home-1>
+    <home-2></home-2 />
+    <home-3></home-3 />
 @stop
 
 @section('content')
-    <example-component></example-component>
+
 @stop

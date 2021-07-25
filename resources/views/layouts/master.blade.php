@@ -1,17 +1,20 @@
-<html>
+<html lang="ES">
 
-<head>
-    <title>App Name - @yield('title')</title>
-</head>
+    <head>
+        <title>App Name - @yield('title')</title>
+        <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    </head>
 
-<body id="app">
-    @section('sidebar')
-        This is the master sidebar.
-    @show
+    <body>
+        <div id="app">
+            @section('sidebar')
+
+            @show
 
 
-    @yield('content')
-</body>
-<script src="{{ mix('/js/app.js') }}"></script>
+            @yield('content')
+        </div>
+    </body>
+    <script src="{{ mix('/js/app.js') }}"></script>
 
 </html>

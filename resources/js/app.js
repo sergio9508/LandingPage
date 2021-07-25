@@ -19,8 +19,11 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
+Vue.component('nav-bar', require('./components/NavBar.vue').default);
+Vue.component('menu-component', require('./components/Menu.vue').default);
+Vue.component('home-1', require('./components/Home1.vue').default);
+Vue.component('home-2', require('./components/Home2.vue').default);
+Vue.component('home-3', require('./components/Home3.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
