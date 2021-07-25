@@ -9,6 +9,7 @@
     <home-2></home-2>
     <home-3></home-3>
     <home-4></home-4>
+    <home-5></home-5>
 @stop
 
 @section('content')
