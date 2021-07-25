@@ -50,8 +50,8 @@ export default {
         this.email = "";
         this.name = "";
         this.type = "";
-      }else{
-          Vue.$toast.open({message: "Email invalid", type: "error"});
+      } else {
+        Vue.$toast.open({ message: "Email invalid", type: "error" });
       }
     },
     validEmail: function (email) {
@@ -70,6 +70,9 @@ export default {
   position: relative;
   top: -4em;
   max-width: 70%;
+  @media screen and (min-width: 576px) {
+    max-width: 90%;
+  }
   border-radius: 0 30px 30px 0;
   .quote-container {
     margin-left: 14%;
@@ -84,6 +87,10 @@ export default {
       display: flex;
       flex-direction: row;
       max-width: 90%;
+      @media screen and (min-width: 576px) {
+          width: 95%;
+          flex-direction: column;
+      }
       justify-content: space-between;
       select {
         background: transparent;
@@ -92,6 +99,11 @@ export default {
         outline: none;
         width: 260px;
         color: #fff;
+        @media screen and (min-width: 576px) {
+          font-size: 30px;
+          width: 100%;
+          margin-bottom: .5em;
+        }
         option {
           background: #2b3948;
           color: #fff;
@@ -104,6 +116,11 @@ export default {
         outline: none;
         width: 260px;
         color: #fff;
+        @media screen and (min-width: 576px) {
+          font-size: 30px;
+          width: 100%;
+          margin-bottom: .5em;
+        }
         &::placeholder {
           /* Chrome, Firefox, Opera, Safari 10.1+ */
           color: #939aa1;
@@ -117,6 +134,9 @@ export default {
         border: none;
         padding: 0.5em 1em;
         border-radius: 30px;
+        @media screen and (min-width: 576px) {
+          font-size: 30px;
+        }
       }
     }
   }

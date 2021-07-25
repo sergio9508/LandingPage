@@ -2,7 +2,7 @@
 <template>
   <div class="home-4">
     <div class="row justify-content-between">
-      <div class="col-md-5 choose">
+      <div class="col-lg-5 col-sm-12 choose">
         <h1>WHY CHOOSE US?</h1>
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -64,7 +64,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-5 help-us">
+      <div class="col-lg-5 col-sm-12 help-us">
         <h1>HOW WE CAN HELP YOU?</h1>
         <Accordion
           name="Sed ut perspiciatis unde omnis?"
@@ -131,6 +131,14 @@ export default {
     h1 {
       color: #f2ab3c;
       margin-bottom: 2em;
+      @media screen and (min-width: 576px) {
+        font-size: 38px;
+      }
+    }
+    p {
+      @media screen and (min-width: 576px) {
+        font-size: 28px;
+      }
     }
     .insurance {
       .insurances {
@@ -142,6 +150,9 @@ export default {
           margin: 0;
           &.fw-bold {
             width: 200px;
+            @media screen and (min-width: 576px) {
+              width: 400px;
+            }
           }
           &.percent {
             margin-left: 0.5em;
@@ -205,6 +216,12 @@ export default {
     padding: 2em;
     h1 {
       color: #f2ab3c;
+       @media screen and (min-width: 576px) {
+        font-size: 38px;
+      }
+    }
+    @media screen and (min-width: 576px) {
+      margin-top: 1em;
     }
   }
 }

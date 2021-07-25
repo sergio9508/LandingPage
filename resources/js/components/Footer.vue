@@ -6,21 +6,21 @@
           <div class="col-md-3">
             <img src="/images/logo_white.png" alt="" />
           </div>
-          <div class="col-md-3 d-flex flex-column">
+          <div class="col-lg-3 col-sm-12 d-flex flex-column">
             <span>PAGES</span>
             <a href="#">ABOUT US</a>
             <a href="#">SERVICES</a>
             <a href="#">BLOG</a>
             <a href="#">CONTACT US</a>
           </div>
-          <div class="col-md-3 d-flex flex-column">
+          <div class="col-lg-3 col-sm-12 d-flex flex-column">
             <span>PRODUCTS</span>
             <a href="#">HEALTH INSURANCE</a>
             <a href="#">HOUSE INSURANCE</a>
             <a href="#">CAR INSURANCE</a>
             <a href="#">TRAVEL INSURANCE</a>
           </div>
-          <div class="col-md-3 d-flex flex-column">
+          <div class="col-lg-3 col-sm-12 d-flex flex-column">
             <span>CONTACT</span>
             <a href="#">P.+(123)456 78 90</a>
             <a href="#">F.+(321)654 87 90</a>
@@ -57,12 +57,18 @@ footer {
       color: #fff;
       font-weight: 600;
       margin-bottom: 2em;
+      @media screen and (min-width: 576px) {
+        font-size: 30px;
+      }
     }
     a {
       color: #adb1b5;
       font-weight: 600;
       text-decoration: none;
       margin-bottom: 1em;
+      @media screen and (min-width: 576px) {
+        font-size: 30px;
+      }
     }
   }
 }
@@ -74,9 +80,25 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    @media screen and (min-width: 576px) {
+      flex-direction: column;
+    }
     p {
       color: #adb1b5;
       margin: 0;
+      @media screen and (min-width: 576px) {
+        font-size: 30px;
+      }
+    }
+    .social-icons {
+      @media screen and (min-width: 576px) {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+        img {
+          height: 50px;
+        }
+      }
     }
   }
 }

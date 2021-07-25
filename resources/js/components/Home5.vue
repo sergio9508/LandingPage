@@ -61,17 +61,31 @@ export default {};
       color: #08d6a7;
       font-weight: 600;
       padding-top: 2em;
+      @media screen and (min-width: 576px) {
+        font-size: 38px;
+      }
     }
     p {
       margin-top: 1em;
+      @media screen and (min-width: 576px) {
+        font-size: 30px;
+      }
     }
     .blog-content {
       display: flex;
       justify-content: space-between;
+      @media screen and (min-width: 576px) {
+        flex-wrap: wrap;
+      }
       .blog {
         display: flex;
         flex-direction: column;
         width: 30%;
+        @media screen and (min-width: 576px) {
+          width: 100%;
+          flex-wrap: wrap;
+          margin-bottom: 2em;
+        }
         .text {
           background: #fff;
           border-radius: 0 0 10px 10px;
@@ -79,6 +93,13 @@ export default {};
           h1 {
             padding: 0;
             color: #000;
+            font-size: 30px;
+          }
+        }
+        a {
+          color: #08d6a7;
+          text-decoration: none;
+          @media screen and (min-width: 576px) {
             font-size: 30px;
           }
         }
@@ -93,6 +114,9 @@ export default {};
       border-radius: 30px;
       display: block;
       margin: 2em auto;
+      @media screen and (min-width: 576px) {
+            font-size: 30px;
+          }
     }
   }
 }

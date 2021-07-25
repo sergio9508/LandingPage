@@ -2,17 +2,17 @@
     <div class="nav-bar">
         <div class="container ">
             <div class="row">
-                <div class="col-md-8 d-flex align-items-center py-3">
+                <div class="col-lg-8 col-sm-12 d-flex align-items-center py-3">
                     <img src="/images/address.png" alt="" class="me-3">
                     <p class="m-0">
                         387 Railroad Court Palmetto, FL 34221
                     </p>
                 </div>
-                <div class="col-md-2 d-flex align-items-center py-2 justify-content-end">
+                <div class="col-lg-2 col-sm-6 d-flex align-items-center py-2 justify-lg-content-end">
                     <img src="/images/email.png" alt="" class="me-3">
                     <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
                 </div>
-                <div class="col-md-2 d-flex align-items-center py-2 justify-content-end">
+                <div class="col-lg-2 col-sm-6 d-flex align-items-center py-2 justify-lg-content-end">
                     <img src="/images/phone.png" alt="" class="me-3">
                     <p class="m-0"> +(123) 456 789</p>
                 </div>
@@ -32,10 +32,16 @@ export default {
     background: #2b3948;
     p{
         color: #fff;
+        @media screen and (min-width: 576px) {
+            font-size: 30px;
+        }
     }
     a{
         color: #fff;
         text-decoration: none;
+        @media screen and (min-width: 576px) {
+            font-size: 30px;
+        }
     }
 }
 </style>

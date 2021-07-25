@@ -48,6 +48,9 @@ export default {
     content: url("/images/toggle-open.png");
     padding-right: 5px;
   }
+  @media screen and (min-width: 576px) {
+        font-size: 30px;
+      }
 }
 .message-body {
   padding: 0;
@@ -55,6 +58,9 @@ export default {
   overflow: hidden;
   transition: 0.3s ease all;
   padding: 0 1em;
+   @media screen and (min-width: 576px) {
+        font-size: 30px;
+      }
 }
 
 .is-closed {
