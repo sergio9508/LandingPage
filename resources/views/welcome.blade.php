@@ -10,6 +10,7 @@
     <home-3></home-3>
     <home-4></home-4>
     <home-5></home-5>
+    <footer-component></footer-component>
 @stop
 
 @section('content')

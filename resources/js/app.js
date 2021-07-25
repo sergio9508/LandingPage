@@ -4,9 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+require("./bootstrap");
 
-window.Vue = require('vue').default;
+window.Vue = require("vue").default;
 
 /**
  * The following block of code may be used to automatically register your
@@ -19,13 +19,14 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('nav-bar', require('./components/NavBar.vue').default);
-Vue.component('menu-component', require('./components/Menu.vue').default);
-Vue.component('home-1', require('./components/Home1.vue').default);
-Vue.component('home-2', require('./components/Home2.vue').default);
-Vue.component('home-3', require('./components/Home3.vue').default);
-Vue.component("home-4", require('./components/Home4.vue').default);
-Vue.component("home-5", require('./components/Home5.vue').default);
+Vue.component("nav-bar", require("./components/NavBar.vue").default);
+Vue.component("menu-component", require("./components/Menu.vue").default);
+Vue.component("home-1", require("./components/Home1.vue").default);
+Vue.component("home-2", require("./components/Home2.vue").default);
+Vue.component("home-3", require("./components/Home3.vue").default);
+Vue.component("home-4", require("./components/Home4.vue").default);
+Vue.component("home-5", require("./components/Home5.vue").default);
+Vue.component("footer-component", require("./components/Footer.vue").default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -33,5 +34,5 @@ Vue.component("home-5", require('./components/Home5.vue').default);
  */
 
 const app = new Vue({
-    el: '#app',
+    el: "#app"
 });
