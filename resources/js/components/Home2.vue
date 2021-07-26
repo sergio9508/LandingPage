@@ -87,7 +87,7 @@ export default {
       display: flex;
       flex-direction: row;
       max-width: 90%;
-      @media screen and (max-width: 576px) {
+      @media screen and (max-width: 768px) {
           width: 90%;
           flex-direction: column;
       }
@@ -99,7 +99,7 @@ export default {
         outline: none;
         width: 260px;
         color: #fff;
-        @media screen and (max-width: 576px) {
+        @media screen and (max-width: 768px) {
 
           width: 100%;
           margin-bottom: .5em;
@@ -116,7 +116,7 @@ export default {
         outline: none;
         width: 260px;
         color: #fff;
-        @media screen and (max-width: 576px) {
+        @media screen and (max-width: 768px) {
 
           width: 100%;
           margin-bottom: .5em;
